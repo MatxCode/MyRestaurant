@@ -1,20 +1,21 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Allura&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* Background */
-
-body
+*
 {
-    overflow: hidden;
+    font-family: "Roboto", serif;
 }
 
-.bg-img
-{
+.hero-section {
     height: 100vh;
-    width: 100vw;
-    object-fit: cover;
-    filter: brightness(0.55);
-    position: absolute;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/img-background.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Header */
@@ -23,3 +24,40 @@ body
 {
     font-family: "Allura", serif;
 }
+
+.font-roboto
+{
+    font-family: "Roboto", serif;
+}
+
+/* Hero section */
+
+.hero-section main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content-subtitle
+{
+    font-size: 8rem;
+    letter-spacing: 1rem;
+}
+
+.book-button
+{
+    background-color: transparent;
+    border: 2px solid white;
+    margin-top: 4rem;
+}
+
