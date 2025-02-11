@@ -1,0 +1,16 @@
+
+/* Background */
+
+body
+{
+    overflow: hidden;
+}
+
+.bg-img
+{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    filter: brightness(0.55);
+    position: absolute;
+}
