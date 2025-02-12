@@ -60,6 +60,7 @@
 .content-title
 {
     color: #92623f;
+    font-size: 3rem;
 }
 
 /* Responsive */
@@ -76,6 +77,10 @@
     {
         margin-top: 2rem;
         font-size: 10px;
+    }
+    .content-section
+    {
+        margin-top: -10rem;
     }
 }
 
