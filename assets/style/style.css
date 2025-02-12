@@ -6,6 +6,7 @@
 *
 {
     font-family: "Roboto", serif;
+    scroll-behavior: smooth;
 }
 
 .hero-section {
@@ -59,7 +60,7 @@
 
 .content-title
 {
-    color: #92623f;
+    color: #875b3d;
     font-size: 3rem;
 }
 
@@ -71,12 +72,13 @@
 .discover-content
 {
     padding: 4rem;
-    height: 150vh;
+    height: auto;
 }
 
 /* Footer Styles */
+
 .text-brown {
-    color: #92623f !important;
+    color: #875b3d;
 }
 
 .social-link {
@@ -84,7 +86,7 @@
 }
 
 .social-link:hover {
-    color: #92623f !important;
+    color: #875b3d !important;
     transform: translateY(-5px);
 }
 
@@ -92,13 +94,20 @@
     margin-top: 1rem;
 }
 
-footer ul li {
-    display: flex;
-    align-items: center;
-}
-
 footer ul li i {
     min-width: 25px;
+}
+
+/* Menu page */
+
+.nav-pills .nav-link {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #92623f;
+}
+
+.nav-pills .nav-link:hover {
+    color: black;
 }
 
 /* Responsive */
@@ -122,7 +131,6 @@ footer ul li i {
     }
     .discover-content
     {
-        height: 150vh;
         padding: 1.5rem;
     }
     .img-services
