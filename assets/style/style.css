@@ -63,15 +63,53 @@
     font-size: 3rem;
 }
 
+.store-card
+{
+    width: 80%;
+}
+
+.discover-content
+{
+    padding: 4rem;
+    height: 150vh;
+}
+
+/* Footer Styles */
+.text-brown {
+    color: #92623f !important;
+}
+
+.social-link {
+    transition: all 0.3s ease;
+}
+
+.social-link:hover {
+    color: #92623f !important;
+    transform: translateY(-5px);
+}
+
+.social-icons {
+    margin-top: 1rem;
+}
+
+footer ul li {
+    display: flex;
+    align-items: center;
+}
+
+footer ul li i {
+    min-width: 25px;
+}
+
 /* Responsive */
 
 @media screen and (max-width: 768px) {
     .hero-section h2.font-resto {
-        font-size: 2.5rem; /* Taille réduite pour mobile */
+        font-size: 2.5rem;
     }
 
     .hero-section h1.font-roboto {
-        font-size: 3.5rem; /* Taille réduite pour mobile */
+        font-size: 3.5rem;
     }
     .book-button
     {
@@ -82,14 +120,33 @@
     {
         margin-top: -10rem;
     }
+    .discover-content
+    {
+        height: 150vh;
+        padding: 1.5rem;
+    }
+    .img-services
+    {
+        width: 100px;
+        height: 100px;
+    }
+    footer h3 {
+        text-align: center;
+    }
+    footer .social-icons {
+        justify-content: center;
+    }
+    footer ul {
+        text-align: left;
+    }
 }
 
 @media screen and (max-width: 480px) {
     .hero-section h2.font-resto {
-        font-size: 2rem; /* Encore plus petit pour les très petits écrans */
+        font-size: 2rem;
     }
 
     .hero-section h1.font-roboto {
-        font-size: 3rem; /* Encore plus petit pour les très petits écrans */
+        font-size: 3rem;
     }
 }
