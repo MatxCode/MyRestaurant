@@ -112,6 +112,17 @@ footer ul li i {
 
 /* Responsive */
 
+@media (max-width: 991px) { /* Applique uniquement en mode mobile */
+    #navbarNav .navbar-nav {
+        text-align: center;
+        width: 100%;
+    }
+
+    #navbarNav .nav-item {
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .hero-section h2.font-resto {
         font-size: 2.5rem;
